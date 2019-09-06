@@ -5,4 +5,13 @@ package plusect.javaexercise.designpattern.creational.simplefactory;
  * @author plusect
  */
 public class Food {
+    private String condiment;
+
+    public String getCondiment() {
+        return condiment;
+    }
+
+    public void setCondiment(String condiment) {
+        this.condiment = condiment;
+    }
 }
